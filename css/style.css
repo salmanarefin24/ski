@@ -1,0 +1,453 @@
+/*============================
+font family Catamaran+ Mulish 
+==============================*/
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap');
+
+/*=========
+Global CSS
+==========*/
+body{
+	font-family: 'Mulish', sans-serif;
+	color: #525252;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Catamaran', sans-serif;
+	color: #2f2f2f;
+}
+ul{
+	margin:0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+
+
+/*===============
+ Header Section
+ ================*/
+ header{
+ 	background: url(../img/Ski-_-Snowboard-School.png) no-repeat center top;
+ 	background-size: cover;
+ }
+ .navbar>.container-fluid{
+ 	padding:0;
+ }
+ .navbar-light .navbar-nav .nav-link.active, 
+ .navbar-light .navbar-nav .show>.nav-link {
+    margin: 0 4px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+.navbar-light .navbar-nav .nav-link {
+    margin: 0 4px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	color: #ff690f;
+}
+header h5{
+ 	text-align: center;
+    text-transform: uppercase;
+    color: #81aac9;
+    font-size: 25px;
+    font-weight: 800;
+    margin-top: 45px;
+}
+header h1{
+ 	text-align: center;
+    font-size: 190px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #5495c4;
+    line-height: 215px;
+}
+header p{
+	font-size: 19px;
+    color: #fefefe;
+    font-weight: 500;
+    padding: 115px 0 0;
+}
+.btn-header{
+    border: none;
+    background: #ff690f;
+    padding: 13px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Catamaran', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 50px 0 250px;
+    border-radius: 5px;
+    transition: 0.4s ease-in-out;
+}
+.btn-header:hover{
+	background: #2f2f2f;
+	color: #ff690f;
+	transition: 0.4s ease-in-out;
+}
+
+
+/*============
+  Hero Section
+ =============*/
+.hero-section{
+ 	padding: 75px 0;
+}
+.hero-section h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.hero-section p {
+    text-align: center;
+    font-weight: 500;
+    line-height: 28px;
+    margin-top: 15px;
+    font-size: 14px;
+}
+.hero-content{
+	padding-top: 30px;
+}
+.hero-content img{
+	display: block;
+    margin: 0 auto;
+}
+.hero-content p{
+	text-align: center;
+    text-transform: uppercase;
+    line-height: 10px;
+}
+.hero-content h6{
+	text-align: center;
+    font-size: 23px;
+    font-weight: 800;
+}
+.btn-hero{
+	border: none;
+    background: #ff690f;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-family: 'Catamaran', sans-serif;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 25px;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: 0.4s ease-in-out;
+}
+.btn-hero:hover{
+	background: #2f2f2f;
+	color: #ff690f;
+	transition: 0.4s ease-in-out;
+}
+
+
+/*===============
+  Gallery Section
+ ================*/
+.img-size{
+	padding: 0;
+}
+.gallery-section img{
+	transition: 0.4s ease-in-out;
+}
+.gallery-section img:hover{
+	transform: scale(1.1);
+	transition: 0.4s ease-in-out;
+}
+
+
+/*============
+  Crew Section
+ =============*/
+.crew-section{
+	padding:75px 0;
+}
+.crew-section h2{
+ 	text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.crew-content{
+	padding-top: 50px;
+}
+.crew-content img{
+	display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.crew-content p{
+	text-align: center;
+    text-transform: uppercase;
+    line-height: 10px;
+    font-size: 12px;
+}
+.crew-content h6{
+    text-align: center;
+    font-size: 23px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 5px;	
+}
+
+
+
+/*==============
+  About Section
+ ===============*/
+.about-section{
+	background: url(../img/About-section-img.jpg) no-repeat center top;
+	background-size: cover;
+	padding: 75px 0 100px;
+}
+.about-section h2{
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 80px;
+}
+.about-section p{
+    font-weight: 500;
+    line-height: 28px;
+    margin: 20px 0;
+    font-size: 16px;
+}
+.about-content h3{
+	color: #ff660d;
+    font-size: 35px;
+    font-weight: 800;
+    margin: 0;
+}
+.about-content h6{
+	font-weight: 800;
+    font-size: 10px;
+    font-family: 'Mulish', sans-serif;
+}
+
+
+/*===================
+ Testimonial  Section
+ ====================*/
+.testimonial-section{
+	padding:75px 0;
+}
+.testimonial-section h2{
+	text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.slick-initialized .slick-slide:focus{
+	outline: none;
+}
+.testimonial-content img{
+	display: block;
+    margin: 0 auto;
+    padding: 30px 0 15px;
+}
+.testimonial-content h6{
+	text-align: center;
+    font-size: 23px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.slick-initialized .slick-slide{
+	position: relative;
+}
+.testimonial-content .fa{
+	content: "";
+    color: #e2dfdf !important;
+    position: absolute;
+    margin-top: -38px;
+    margin-left: -10px;
+}
+.testimonial-content p{
+	text-align: center;
+    font-weight: 500;
+    margin-top: 15px;
+    font-size: 16px;
+}
+.slick-dots li {
+    background-color:#2f2f2f;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+.slick-dots li.slick-active {
+    background-color: #ff630b;
+}
+
+
+/*===================
+ Footer Section 
+ ===============*/
+footer{
+ 	padding:75px 0;
+ 	background: #2f2f2f;
+}
+  footer h2{
+    font-size: 40px;
+    font-weight: 800;
+    color: #fff;
+    text-transform: uppercase;
+}
+.contact-item{
+	padding: 10px 0;
+}
+.contact-item ul li{
+ 	display: inline;
+
+}
+.contact-item ul{
+	padding: 0;
+}
+.contact-item ul li .fa{
+ 	 font-size: 25px;
+    text-align: right;
+    display: block;
+    color: #ff600a;
+    transition: 0.4s ease-in-out;
+}
+.contact-item ul li .fa:hover{
+	color: #fff;
+	transition: 0.4s ease-in-out;
+	transform: scale(1.1);
+}
+.contact-item ul li a{
+	text-transform: uppercase;
+	color: #fff;
+    font-size: 13px;
+	transition: 0.4s ease-in-out;
+}
+.contact-item ul li a:hover{
+	color: #ff600a;
+	padding-left: 5px;
+	transition: 0.4s ease-in-out;
+}
+.last-icon a .fa{
+	padding: 24px 25px;
+    font-size: 30px;
+    color: #979797;
+    transition: 0.4s ease-in-out;
+
+}
+.last-icon a .fa:hover{
+	color: #ff600a;
+	transform: scale(1.2);
+	transition: 0.4s ease-in-out;
+}
+.mapss{
+    width: 750px;
+    height: 330px;
+}
+
+
+
+/*======================
+  Media Query For Notebook
+  ======================*/
+@media (min-width:768px) and (max-width: 992px){
+
+    button:focus:not(:focus-visible) {box-shadow: none;}
+    .navbar-light .navbar-toggler {color: rgba(0,0,0,.1);border-color: #2f2f2f;}
+    .navbar-light .navbar-nav .nav-link { text-align: center;}
+    .navbar>.container-fluid { padding: 10px 0; }
+    header h5 { margin-top: 10px;}
+    header h1 { font-size: 115px; line-height: 100px;}
+    header p { font-size: 17px; padding: 25px 0 0;}
+    .btn-header { margin: 50px 0;}
+    .hero-section, .crew-section, .testimonial-section { padding: 50px 0;}
+    .hero-img{ margin-top: 19px !important;}
+    .crew-content { padding-top: 30px;}
+    .crew-content h6 {font-size: 20px;}
+    .about-section {padding: 50px 0 0;}
+    .about-section h2 { margin-top: 0;}
+    footer{padding: 50px 0}
+    footer h2 { font-size: 35px;}
+    .contact-item { padding: 4px 0;}
+    .last-icon a .fa { padding: 24px 20px;}
+    .mapss {width: 450px; height: 325px;}
+}
+
+
+/*======================
+  Media Query For teblet
+  ======================*/
+@media (min-width:577px) and (max-width: 768px){
+
+    button:focus:not(:focus-visible) {box-shadow: none;}
+    .navbar-light .navbar-toggler {color: rgba(0,0,0,.1);border-color: #2f2f2f;}
+    .navbar-light .navbar-nav .nav-link { text-align: center;}
+    .navbar>.container-fluid { padding: 10px 0; }
+    header h5 { font-size: 20px; margin-top: 0;}
+    header h1 {font-size: 75px; line-height: 60px;}
+    header p {font-size: 16px;text-align: center;padding: 15px 0 0;}
+    .btn-header { padding: 10px 15px; font-size: 16px; display: block; margin: 70px auto 34px; }
+    .hero-section { padding: 40px 0;}
+    .hero-section h2 { font-size: 35px;}
+    .hero-section p {line-height: 24px; font-size: 16px;}
+    .hero-content img {margin: 25px auto 0;}
+    .btn-hero {margin: 16px auto 50px;}
+    .crew-section { padding: 40px 0;}
+    .crew-section h2 {font-size: 35px;}
+    .crew-content { padding-top: 25px;}
+    .crew-content img { width: 175px; }
+    .crew-content p { line-height: 0px;}
+    .crew-content h6 { font-size: 20px; margin-bottom: 40px;}
+    .about-section {padding: 65px 0;}
+    .about-section h2 { font-size: 35px; text-align: center; margin: 0;  padding-right: 91px; }
+    .about-section p {text-align: center; font-size: 16px; padding-right: 91px;}
+    .about-content h3, h6 {text-align: center;}
+    .about-content h6{padding-bottom: 20px;}
+    .testimonial-section {padding: 40px 0;}
+    .testimonial-section h2 {font-size: 35px;}
+    .testimonial-content h6 {font-size: 20px;}
+    footer { padding: 40px 0; }
+    footer h2 { font-size: 35px; text-align: center;}
+    .last-icon{text-align: center;}
+    .contact-item ul li .fa{text-align: right; margin-top: 3px;}
+    .mapss {width: 515px; height: 215px;}
+}
+
+
+/*======================
+  Media Query For Mobile
+  ======================*/
+@media (min-width:320px) and (max-width: 576px){
+
+    button:focus:not(:focus-visible) {box-shadow: none;}
+    .navbar-light .navbar-toggler {color: rgba(0,0,0,.1);border-color: #2f2f2f;}
+    .navbar-light .navbar-nav .nav-link { text-align: center;}
+    .navbar>.container-fluid { padding: 10px 0; }
+    header h5 { font-size: 15px; margin-top: 0;}
+    header h1 {font-size: 55px; line-height: 60px;}
+    header p {font-size: 16px;text-align: center;padding: 15px 0 0;}
+    .btn-header { padding: 10px 15px; font-size: 16px; display: block; margin: 70px auto 34px; }
+    .hero-section { padding: 40px 0;}
+    .hero-section h2 { font-size: 30px;}
+    .hero-section p {line-height: 24px;}
+    .btn-hero {margin: 16px auto 50px;}
+    .crew-section { padding: 40px 0;}
+    .crew-section h2 {font-size: 30px;}
+    .crew-content img { width: 150px; }
+    .crew-content p { line-height: 0px;}
+    .crew-content h6 { font-size: 20px; margin-bottom: 40px;}
+    .about-section {padding: 40px 0;}
+    .about-section h2 { font-size: 30px; text-align: center; margin: 0; }
+    .about-section p {text-align: center; font-size: 16px;}
+    .about-content h3, h6 {text-align: center;}
+    .about-content h6{padding-bottom: 20px;}
+    .testimonial-section {padding: 40px 0;}
+    .testimonial-section h2 {font-size: 30px;}
+    .testimonial-content h6 {font-size: 20px;}
+    footer { padding: 40px 0; }
+    footer h2 { font-size: 30px; text-align: center;}
+    .contact-item ul li .fa{text-align: right; margin-top: 3px;}
+    .mapss {width: 295px; height: 215px;}
+
+}
